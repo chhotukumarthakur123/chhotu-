@@ -70,7 +70,7 @@ body {
 
 /* Main Hero Section Styles */
 .hero {
-    background-image: linear-gradient(45deg, #080a34, #091628);
+    background-image: linear-gradient(45deg, #060733, #02080f);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -91,12 +91,14 @@ body {
 
 /* Animation for greet-heading */
 .headings .greet-heading {
+    color: #fff;
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 1s; /* Delay for staggered animation */
 }
 
 /* Animation for my-heading */
 .headings .my-heading {
+    color: white;
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 2s; /* Delay for staggered animation */
 }
@@ -144,7 +146,7 @@ body {
 }
 
 .circle:nth-child(1) {
-    background: linear-gradient(90deg, transparent 50%, #091248);
+    background: linear-gradient(90deg, transparent 50%, #4a5595);
     width: 38rem;
     animation-delay: 0s;
 }
@@ -265,6 +267,7 @@ body {
 }
 
 .prot-card:hover {
+
     transform: scale(1.05); /* Slightly scale the card */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
 }
